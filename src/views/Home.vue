@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde hace décadas, la neurociencia ha ofrecido descubrimientos esenciales sobre el funcionamiento del cerebro humano y su impacto en los procesos educativos. En esta unidad, se exploran modelos fundamentales que explican cómo el cerebro procesa la información, aprende, siente y actúa, con el fin de optimizar la enseñanza y personalizar los aprendizajes.
+              p.descripcion.mb-4 La comprensión del cerebro como órgano del aprendizaje es clave para transformar las prácticas educativas. En esta tercera unidad, se abordará cómo aplicar los conocimientos de la neuropedagogía en el contexto escolar, con el fin de diseñar experiencias de enseñanza más efectivas y significativas. Se profundiza en aspectos como la planificación pedagógica basada en principios neuroeducativos, la importancia del ambiente emocional, y el uso de estrategias didácticas que consideran la diversidad neurocognitiva del estudiante.
               
-              p #[b ¡Prepárese para transformar su práctica educativa desde la ciencia del cerebro y la comprensión de los estilos de aprendizaje!]
+              p #[b ¡Explore cómo transformar su práctica docente desde el conocimiento del cerebro y la mente!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

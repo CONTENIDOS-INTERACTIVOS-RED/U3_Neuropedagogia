@@ -1,7 +1,7 @@
 export default {
   global: {
     numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    tituloUnidad: 'Componentes teóricos y metodológicos de la neuropedagogía',
   },
   menuPrincipal: {
     menu: [
