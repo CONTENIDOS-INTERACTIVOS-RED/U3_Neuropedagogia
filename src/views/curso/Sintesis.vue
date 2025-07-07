@@ -2,7 +2,9 @@
   .curso-main-container.creditos-vista
     BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p(data-aos="fade-up").mb-5 La Unidad 3: Bioética y sostenibilidad en el desarrollo económico global, establece los principios esenciales para comprender cómo los valores éticos y bioéticos pueden orientar el desarrollo económico hacia la sostenibilidad. Esta unidad proporciona una perspectiva integral sobre la relación entre la economía, el medio ambiente y los derechos humanos, destacando la importancia de prácticas responsables en contextos globalizados. Este enfoque asegura que los estudiantes adquieran una comprensión sólida de los desafíos éticos actuales y las estrategias sostenibles, permitiéndoles aplicar estas herramientas de manera efectiva en su formación profesional y en la vida cotidiana.
+      p(data-aos="fade-up").mb-4 La unidad 3: Componentes teóricos y metodológicos de la neuropedagogía, brinda herramientas conceptuales y prácticas para integrar los aportes de la neurociencia al quehacer pedagógico. Esta unidad promueve la planificación educativa consciente de los procesos cerebrales implicados en el aprendizaje, abordando factores como la atención, la memoria, la motivación, las emociones y los estilos cognitivos.
+
+      p.mb-5 A partir del análisis de estrategias didácticas y del entorno emocional del aula, se fomenta una enseñanza que reconoce la diversidad neurobiológica de los estudiantes. Este enfoque impulsa un aprendizaje más significativo, personalizado y transformador. Así, la unidad fortalece las competencias del futuro docente para diseñar ambientes educativos inclusivos, estimulantes y acordes al funcionamiento del cerebro humano.
 
       .row.justify-content-center
         .col-lg-12.mb-5
