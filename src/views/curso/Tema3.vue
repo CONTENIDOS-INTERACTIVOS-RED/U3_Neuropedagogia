@@ -90,7 +90,7 @@
 
       p Para Vásquez Muñoz et al. (2023), la consolidación de la memoria ocurre cuando la información se refuerza mediante la repetición significativa y el procesamiento activo. Sin embargo, diversos factores pueden influir en la eficacia con la que se almacena y recupera la información:
 
-      .bg-full-width.bg-color-info.mb-5
+      .bg-full-width.bg-color-info.mb-4
         .px-4.px-md-5.pb-0.pt-4.pt-md-5
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-10
@@ -114,6 +114,79 @@
                 .bg-color-white.box-shadow.p-3(x="83.5%" y="37.5%" numero="+")
                   h5 Práctica y repetición
                   p La información que se revisa y se utiliza de manera frecuente tiene mayores probabilidades de ser retenida a largo plazo. Técnicas como el repaso activo y la asociación de conceptos mejoran la consolidación de conocimientos.
+      
+      .bg-full-width.bg-color-13
+        .p-4.p-md-5
+          h2 Atención y concentración 
+
+          p Por otra parte, Bullón Gallego (2017), dice que la atención es un proceso fundamental para el aprendizaje, puesto que permite al cerebro filtrar estímulos y enfocarse en la información relevante y que existen diferentes tipos de atención:
+
+          div.row.justify-content-center.align-items-stretch
+            div.col-lg-4.mb-4(data-aos="zoom-in-up")
+              div.bg-color-white.box-shadow.px-4.py-5.h-100
+                img.mx-auto.d-block.mb-4(
+                  src="@/assets/curso/tema3/3.svg"
+                  alt=""
+                  style="width: 90px"
+                )
+                h5.mb-3.text-center Atención selectiva
+                p.mb-0.text-center Permite concentrarse en un estímulo específico mientras se ignoran otros.
+          
+            div.col-lg-4.mb-4(data-aos="zoom-in-up")
+              div.bg-color-white.box-shadow.px-4.py-5.h-100
+                img.mx-auto.d-block.mb-4(
+                  src="@/assets/curso/tema3/4.svg"
+                  alt=""
+                  style="width: 90px"
+                )
+                h5.mb-3.text-center Atención sostenida
+                p.mb-0.text-center Mantiene el enfoque en una tarea durante períodos prolongados.
+          
+            div.col-lg-4.mb-4(data-aos="zoom-in-up")
+              div.bg-color-white.box-shadow.px-4.py-5.h-100
+                img.mx-auto.d-block.mb-4(
+                  src="@/assets/curso/tema3/5.svg"
+                  alt=""
+                  style="width: 90px"
+                )
+                h5.mb-3.text-center Atención dividida
+                p.mb-0.text-center Facilita la realización de múltiples tareas simultáneamente.
+
+
+      .bg-full-width.bg-color-3.mb-5
+        .px-4.px-md-5.py-4
+          p.mb-0.text-white Para mejorar la atención en el aula, es recomendable utilizar técnicas como la enseñanza multisensorial, la gamificación y las estrategias de descanso activo.
+
+
+      h2 Emoción y motivación en el aprendizaje 
+
+      .bg-color-2.mb-5(data-aos="fade-up")
+        .row.justify-content-center.align-items-center
+          .col-lg
+            .p-4
+              p.mb-3(data-aos="fade-up") Vásquez Muñoz et al. (2023), propone que las emociones desempeñan un papel crucial en la adquisición de conocimientos. Cuando un estudiante experimenta emociones positivas, su cerebro libera neurotransmisores como la dopamina y la serotonina, lo que mejora la retención de información. Por el contrario, el estrés y la ansiedad pueden activar el sistema de respuesta al peligro, dificultando el proceso de aprendizaje. 
+              p.mb-0 Para potenciar la motivación de los estudiantes, es recomendable utilizar estrategias como la enseñanza basada en el juego, el refuerzo positivo y la construcción de un ambiente emocionalmente seguro. 
+          .col-lg-auto
+            figure
+              img(src='@/assets/curso/tema3/6.png', alt='')
+
+
+      .row.mb-5
+        .col-lg-4
+          figure
+            img(src="@/assets/curso/tema3/7.png", data-aos="zoom-in")
+        .col-lg-8
+
+          h2 Contexto y ambiente de aprendizaje 
+          p(data-aos="fade-left").mb-4 El entorno en el que se desarrolla el aprendizaje, influye directamente en la capacidad del cerebro para procesar información. Para Vásquez Muñoz et al. (2023), un ambiente hostil o lleno de distracciones puede activar mecanismos de defensa que inhiben la memoria y la concentración. La neurociencia sugiere que los ambientes de aprendizaje deben estar diseñados para reducir el estrés, proporcionar estimulación adecuada y fomentar la interacción social. 
+      
+          .bg-color-9.p-4(data-aos="fade-left").mb-4
+            .row.align-items-start
+              .col-lg-auto
+                img(src="@/assets/curso/tema1/icono.svg", style="max-width: 90px").mx-auto
+              .col-lg
+                p.mb-0 #[b El estudio del cerebro en la educación,] ha revolucionado la manera en que se diseñan los procesos de enseñanza. Comprender cómo aprende el cerebro permite a los docentes adaptar sus métodos para mejorar la retención de conocimientos y la motivación de los estudiantes. #[b La neuroeducación] se posiciona como un campo clave para el desarrollo de prácticas pedagógicas innovadoras y eficaces.
+      
       
 
 
