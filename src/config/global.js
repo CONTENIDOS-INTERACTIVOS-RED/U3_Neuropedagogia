@@ -15,19 +15,19 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Herramientas neuropedagógicas a través de la lúdica',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Herramientas neuropedagógicas',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Importancia de la lúdica en la neuropedagogía',
             hash: 't_1_2',
           },
         ],
@@ -36,26 +36,21 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo:
+          'Herramientas neuro pedagógicas a través de las inteligencias múltiples',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Fundamentos neuropsicológicos de las inteligencias',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Herramientas para cada inteligencia',
             hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_3',
           },
         ],
       },
@@ -63,20 +58,14 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Título tema',
+        titulo: 'Cerebro y rol en la educación',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Procesos cerebrales claves en el aprendizaje',
             hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_2',
           },
         ],
       },
@@ -84,13 +73,13 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Título tema',
+        titulo: 'Neuroclase',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '4.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Ejemplo de clase basada en neurociencia',
             hash: 't_4_1',
           },
         ],
@@ -133,26 +122,135 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
+        'Mora, F. (2017). Neuroeducación: solo se puede aprender aquello que se ama: (ed.). Difusora Larousse - Alianza Editorial.',
       link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'https://elibro.net/es/ereader/tecnologicadeloriente/1228787?page=21',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Torres Bustamante, E. (2020). Manual de herramientas neuropedagógicas. Instituto Nacional de Neuroeducación A.C.',
+      link:
+        'https://www.neuroeducacion.com.mx/modulo/panel/archivos/documento-965-200891.pdf',
+    },
+    {
+      referencia:
+        'Pinzón Blanco, D. M., & Téllez Sánchez, F. J. (2016). Herramientas neuropedagógicas: una alternativa para el mejoramiento en la competencia de resolución de problemas en matemáticas.',
+      link: 'https://doi.org/10.15665/esc.v14i2.931',
+    },
+    {
+      referencia:
+        'Vergara Romero, C. y Macias Aldana, Y. (2022). Metasíntesis de técnicas, programas y estrategias neuropsicológicos que promueven las inteligencias múltiples en el aula. Corporación Universitaria Iberoamericana - Repositorio de Trabajos de Grado.',
+      link:
+        'https://repositorio.ibero.edu.co/items/a1f0ff40-88a0-4091-beef-b16925f3bd02',
+    },
+    {
+      referencia:
+        'Muchuit, A. F., Zapata, R. B., Comba, A., Mari, M., Torres, N., Pellizard, J., & Segovia, A. P. (2018). Neurodidáctica y autoorganización del aprendizaje, un camino de la teoría a la práctica.',
+      link: 'https://rieoei.org/RIE/article/view/3193/3996',
+    },
+    {
+      referencia:
+        'Berrú Torres, C. P., Pardo Romero, S.R., Gordillo Salas, D. Y., Escaleras Encarnación, V. E., Vega Lanchi, M. M., Camacho Castillo, B. R., & Merino Abad, M. M. (2025). Estrategias docentes para integrar inteligencias múltiples y estilos de aprendizaje. Revista InveCom, 5(1), eS01012. Epub 18 de noviembre de 2024.',
+      link: 'https://doi.org/10.5281/zenodo.10909995',
+    },
+    {
+      referencia:
+        'ICCSI. (2025). Caja de herramientas para inteligencias múltiples. ICCSI.',
+      link:
+        'https://iccsi.com.ar/caja-de-herramientas-de-las-inteligencias-multiples/',
+    },
+    {
+      referencia:
+        'Universidad CESUMA. (2025). El cerebro y su relación con el aprendizaje.',
+      link:
+        'https://www.cesuma.mx/blog/el-cerebro-y-su-relacion-con-el-aprendizaje.html',
+    },
+    {
+      referencia:
+        'Valencia Jiménez, L. K. (2024). Neurociencia y educación: cómo el cerebro aprende y su aplicación en el aula. Revista Multidisciplinar Ciencia y Descubrimiento.',
+      link:
+        'https://cienciaydescubrimiento.com/index.php/cyd/article/view/14/15',
+    },
+    {
+      referencia:
+        'Roldán Gallego, I. (2017). La neurociencia en el ámbito educativo. Revista Internacional de apoyo a la inclusión, logopedia, sociedad y multiculturalidad, 3(1), 118-135.',
+      link: 'https://www.redalyc.org/journal/5746/574660910005/html/',
+    },
+    {
+      referencia:
+        'Vásquez Muñoz, A., Silva Siesquén, J. A., & Morales Huamán, H. I. (2023). Aporte de la neurociencia a la educación: a partir de una revisión bibliográfica.',
+      link:
+        'https://www.researchgate.net/publication/372568776_Aporte_de_la_neurociencia_a_la_educacion_a_partir_de_una_revision_bibliografica/fulltext/64bbe6108de7ed28bac0072c/Aporte-de-la-neurociencia-a-la-educacion-a-partir-de-una-revision-bibliografica.pdf',
+    },
+    {
+      referencia:
+        'León, M. I. (2023, 18 octubre). ¿Qué es neuroeducación y cómo aplicarla en el aula? Blog Escuela de posgrado.',
+      link:
+        'https://blogposgrado.ucontinental.edu.pe/neuroeducacion-aprendizaje-aula',
+    },
+    {
+      referencia:
+        "D'Addario, M. (2019). Educación y neurociencia Tratados, análisis, neuroaula y ejercicios (Primera edición).",
+      link:
+        'https://ciec.edu.co/wp-content/uploads/2025/01/Educacion-y-neurociencia.pdf',
+    },
+    {
+      referencia:
+        'Pardo, A. (2025, 4 febrero). 25 actividades basadas en neuroeducación para aplicar en tu aula. Edutopía Formación.',
+      link:
+        'https://edutopiaformacion.com/25-actividades-basadas-en-neuroeducacion-para-aplicar-en-tu-aula/',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Circuitos neuronales',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'Redes de neuronas interconectadas que transmiten información en el cerebro, esenciales para el procesamiento cognitivo y el aprendizaje.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Cognición',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'Conjunto de procesos mentales como percepción, memoria, lenguaje y razonamiento que permiten el aprendizaje.',
+    },
+    {
+      termino: 'Corteza prefrontal',
+      significado:
+        'Área del cerebro responsable de funciones ejecutivas como planificación, toma de decisiones y control de impulsos.',
+    },
+    {
+      termino: 'Emoción',
+      significado:
+        'Factor clave en el aprendizaje, ya que influye en la motivación y la retención de información.',
+    },
+    {
+      termino: 'Funciones ejecutivas',
+      significado:
+        'Habilidades cognitivas que permiten organizar, planificar y regular el comportamiento para alcanzar objetivos.',
+    },
+    {
+      termino: 'Memoria de trabajo',
+      significado:
+        'Sistema que retiene información temporalmente para su procesamiento y uso en tareas cognitivas.',
+    },
+    {
+      termino: 'Neurodidáctica',
+      significado:
+        'Disciplina que aplica conocimientos de neurociencia para mejorar estrategias de enseñanza y aprendizaje.',
+    },
+    {
+      termino: 'Neuroimagen',
+      significado:
+        'Técnica que permite visualizar la actividad cerebral mediante herramientas como la resonancia magnética funcional (fMRI) y la tomografía por emisión de positrones (PET), ayudando a comprender los procesos de aprendizaje.',
+    },
+    {
+      termino: 'Neuroplasticidad',
+      significado:
+        'Capacidad del cerebro para adaptarse y cambiar mediante la formación de nuevas conexiones neuronales.',
+    },
+    {
+      termino: 'Sinapsis',
+      significado:
+        'Capacidad del cerebro para adaptarse y cambiar mediante la formación de nuevas conexiones neuronales.',
     },
   ],
 }
