@@ -177,15 +177,12 @@
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+                a(href="http://www.rperspectivasinvestigativas.org/index.php/multidiscipinaria/article/download/282/835" target="_blank" rel="noopener noreferrer") Palma-Menéndez, S. P., Rizzo-Andrade, M. O., Vera-Rivera, M. A., & Palacios-Alonzo, S. M. (2025). Estrategias en neuroeducación y aprendizaje basado en la emoción para la motivación en el aula [Strategies in neuroeducation and emotion-based learning for motivation in the classroom]. Revista Multidisciplinaria Perspectivas Investigativas, 5(1), 18-24. 
   
-              p.d-flex.my-4
-                img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-                span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-                a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+                a(href="https://www.youtube.com/watch?v=QUjtcFoTtpU" target="_blank" rel="noopener noreferrer") Teran, Tair. (2023, 26 de octubre). Las ventajas de la neuroeducación en el aula [Vídeo]. YouTube.
   
             .col-12.col-md-6.col-lg-3.offset-lg-1
               figure
