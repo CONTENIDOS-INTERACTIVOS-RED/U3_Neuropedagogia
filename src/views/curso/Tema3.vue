@@ -1,15 +1,121 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'3. Título tema'")
+    BannerInterno(:subTitulo="'3. Cerebro y rol en la educación'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
-  
-      #t_3_1.titulo-segundo(data-aos="flip-up")
-        h2 #[span 3.1] Subtítulo tema
 
-      .bg-full-width.border-top.actividad.bg-color-actividad
+      p El conocimiento del cerebro y su funcionamiento resulta esencial para comprender los procesos de aprendizaje y aplicar estrategias pedagógicas efectivas.
+  
+      .bg-full-width.bg-color-7.mb-lg-5
+        .px-4.p-md-5
+          .row.justify-content-center.align-items-center
+            .col-lg-5
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema3/1.png', alt='')
+      
+            .col-lg-7
+              h3.mb-4(data-aos="flip-up") Cerebro y rol en la educación 
+              p.mb-4(data-aos="fade-right") En el PDF Cerebro y rol en la educación, se exploran los fundamentos neurobiológicos que intervienen en el desarrollo cognitivo y emocional, destacando aspectos como la plasticidad cerebral, la neurogénesis y el impacto de las emociones en la consolidación del conocimiento. Esta perspectiva permite diseñar ambientes educativos enriquecidos que favorezcan la motivación, la atención y la memoria, pilares fundamentales para una educación adaptada a las necesidades reales del estudiante.
+      
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_4.pdf')" target="_blank")(data-aos="flip-up")
+                .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                  img(src="@/assets/template/icono-pdf.svg")
+                .anexo__texto
+                  p <strong>Anexo. </strong> Cerebro y rol en la educación 
+      
+
+      #t_3_1.titulo-segundo(data-aos="flip-up")
+        h2 #[span 3.1] Procesos cerebrales claves en el aprendizaje
+
+
+      p Bullón Gallego (2017), explica que, como lo hemos venido estudiando, el aprendizaje es un proceso complejo que involucra múltiples áreas del cerebro, cada una con funciones específicas. A continuación, se presentan los principales procesos cerebrales implicados en la adquisición de conocimientos, según este autor:
+
+
+      .bg-full-width.bg-fondo-slider.mb-5
         .p-4.p-md-5
-          #Actividad                
-            <Actividad :cuestionario="cuestionario"/>
+          SlyderA(tipo="b").bg-white
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5.order-lg-2
+                figure
+                  img(src="@/assets/curso/tema3/slide-1.png")
+              .col-lg-7.order-lg-1
+                h4 Plasticidad cerebral 
+                p La plasticidad cerebral es la capacidad del cerebro para adaptarse y reorganizarse en función de nuevas experiencias y aprendizajes. Este fenómeno permite que las neuronas formen nuevas conexiones y refuercen las existentes, facilitando el almacenamiento de información en la memoria a largo plazo. 
+                p Cuando los estudiantes están expuestos a nuevos conocimientos, su cerebro genera redes neuronales más fuertes y eficientes. La plasticidad es mayor en la infancia, pero se mantiene activa a lo largo de la vida. Las estrategias de enseñanza que fomentan la exploración, la creatividad y la resolución de problemas son fundamentales para estimular la plasticidad cerebral.
+
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5.order-lg-2
+                figure
+                  img(src="@/assets/curso/tema3/slide-2.png")
+              .col-lg-7.order-lg-1
+                h4 Memoria y consolidación del aprendizaje
+                p El aprendizaje es un proceso que depende en gran medida, de la capacidad del cerebro para retener información, la cual se almacena en la memoria y se consolida mediante diversas estrategias cognitivas. Según Vásquez Muñoz et al. (2023), la memoria no es un sistema uniforme, sino que se divide en varios tipos, cada uno con funciones específicas en la retención y el procesamiento de datos.
+      
+      
+      p Los tipos de memoria son:
+
+      .row.align-items-center.mb-5
+        .col-lg-4
+          figure
+            img(src="@/assets/curso/tema3/2.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
+      
+        .col-lg-8
+      
+              LineaTiempoD.color-primario.large(data-aos="fade-right")
+                div(numero="1" titulo="Memoria sensorial")
+                  p Es la forma más inmediata de almacenamiento de información. Retiene estímulos externos por fracciones de segundos antes de que sean procesados por otros sistemas de memoria. Este tipo de memoria es clave para la percepción y la rápida evaluación del entorno. Por ejemplo, cuando se ve una imagen fugaz o se escucha una palabra en una conversación, el cerebro la almacena brevemente para decidir si es relevante. Existen diferentes tipos de memoria sensorial; entre ellas, tenemos:
+                  ul.lista-ul--color.color-dark.mb-4
+                    li.mb-0
+                      i.fas.fa-arrow-circle-right
+                      | #[b Memoria icónica.] Relacionada con la información visual.
+                    li.mb-0
+                      i.fas.fa-arrow-circle-right
+                      | #[b Memoria ecoica.] Retiene estímulos auditivos por períodos breves.
+                    li.mb-0
+                      i.fas.fa-arrow-circle-right
+                      | #[b Memoria háptica.] Relacionada con el tacto y las sensaciones físicas.
+                div(numero="2" titulo="Memoria a corto plazo")
+                  p Es el sistema de almacenamiento temporal donde la información se mantiene activa durante períodos breves, generalmente entre 15 y 30 segundos. Vásquez Muñoz et al. (2023), considera una especie de “espacio de trabajo mental”, debido a que permite procesar datos antes de transferirlos a la memoria a largo plazo o descartarlos. Este tipo de memoria es fundamental en tareas como el cálculo mental, la lectura y la comprensión de instrucciones. La capacidad de la memoria a corto plazo es limitada, y suele estar influenciada por la atención y la carga cognitiva del individuo.
+                div(numero="3" titulo="Memoria a largo plazo")
+                  p Es el sistema de almacenamiento más duradero, responsable de conservar conocimientos, experiencias y habilidades por períodos prolongados, desde horas hasta toda la vida.  Según Vásquez Muñoz et al. (2023), se subdivide en:
+                  ul.lista-ul--color.color-dark.mb-4
+                    li.mb-0
+                      i.fas.fa-arrow-circle-right
+                      | #[b Memoria declarativa.] Relacionada con hechos y eventos específicos que una persona puede recordar conscientemente. Se divide en memoria episódica (experiencias personales) y memoria semántica (conocimiento general, como el significado de palabras o conceptos).
+                    li.mb-0
+                      i.fas.fa-arrow-circle-right
+                      | #[b Memoria procedimental.] Se encarga de retener habilidades motoras y hábitos, como montar bicicleta o tocar un instrumento musical, sin necesidad de un esfuerzo consciente para recordarlas.
+          
+
+      h2 Factores que influyen en la consolidación de la memoria
+
+      p Para Vásquez Muñoz et al. (2023), la consolidación de la memoria ocurre cuando la información se refuerza mediante la repetición significativa y el procesamiento activo. Sin embargo, diversos factores pueden influir en la eficacia con la que se almacena y recupera la información:
+
+      .bg-full-width.bg-color-info.mb-5
+        .px-4.px-md-5.pb-0.pt-4.pt-md-5
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-10
+              ImagenInfografica.color-secundario
+                template(v-slot:imagen)
+                  figure
+                    img(src='@/assets/curso/tema3/info1.svg', alt='', style="max-width: 868px;").mx-auto
+      
+                .bg-color-white.box-shadow.p-3(x="17%" y="38%" numero="+")
+                  h5 Sueño
+                  p Durante el descanso, el cerebro reorganiza y refuerza las conexiones neuronales, consolidando los aprendizajes adquiridos durante el día. La falta de sueño afecta negativamente la memoria y la capacidad de concentración. 
+      
+                .bg-color-white.box-shadow.p-3(x="34%" y="20%" numero="+")
+                  h5 Alimentación
+                  p Nutrientes como los ácidos grasos omega-3, antioxidantes y vitaminas, contribuyen a la salud cerebral y mejoran la función de la memoria.
+
+                .bg-color-white.box-shadow.p-3(x="67%" y="20%" numero="+")
+                  h5 Emoción y motivación
+                  p Las experiencias con una carga emocional intensa, tienden a consolidarse más fácilmente en la memoria a largo plazo. Esto se debe a la activación del sistema límbico, particularmente de la amígdala, que refuerza la retención de recuerdos significativos.
+        
+                .bg-color-white.box-shadow.p-3(x="83.5%" y="37.5%" numero="+")
+                  h5 Práctica y repetición
+                  p La información que se revisa y se utiliza de manera frecuente tiene mayores probabilidades de ser retenida a largo plazo. Técnicas como el repaso activo y la asociación de conceptos mejoran la consolidación de conocimientos.
+      
+
 
       .bg-full-width.border-top.color-primario
         .p-4.p-md-5
@@ -35,194 +141,3 @@
                 img(src='@/assets/componentes/material-complementario.svg', alt='')
   
 </template>
-
-<script>
-import Actividad from '@/components/actividad/Actividad.vue'
-export default {
-  name: 'Tema3',
-  components: {
-    Actividad,
-  },
-  data() {
-    return {
-      cuestionario: {
-        tema: 'Herramientas colaborativas para la construcción de paz',
-        titulo: 'Ponte a prueba',
-        introduccion:
-          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
-        barajarPreguntas: true,
-        preguntas: [
-          {
-            id: 1,
-            texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Son temporales y cambiantes',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Son opcionales',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 2,
-            texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Limita las oportunidades de interacción',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 3,
-            texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Imponer una solución rápida',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Determinar la culpabilidad',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 4,
-            texto: 'En un foro comunitario, es importante:',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Escuchar solo a las autoridades',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 5,
-            texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Aplicar una sanción severa',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Castigar a las partes involucradas',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-        ],
-        mensaje_final_aprobado:
-          '¡Felicidades! Has superado la prueba con éxito.',
-        mensaje_final_reprobado:
-          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
-      },
-    }
-  },
-  mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
-  },
-}
-</script>
-
-<style lang="sass">
-.bg-color-actividad
-  background-color: #EBF1F5
-</style>

@@ -29,7 +29,7 @@
                   alt=""
                   style="width: 90px"
                 )
-                h5.mb-3.text-center Herramientas neuropedagógicas
+                h5.mb-3.text-center Herramientas neuropedagógicas a través de la lúdica
                 p.mb-0.text-center Destacando el juego como un recurso esencial para el aprendizaje, a través de la lúdica.
           
             div.col-lg-3.mb-4(data-aos="zoom-in-up")
@@ -39,7 +39,7 @@
                   alt=""
                   style="width: 90px"
                 )
-                h5.mb-3.text-center Herramientas neuropedagógicas
+                h5.mb-3.text-center Herramientas neuropedagógicas a través de las inteligencias múltiples
                 p.mb-0.text-center Permitiendo adaptar la enseñanza a los distintos estilos de aprendizaje, a través de las inteligencias múltiples.
           
             div.col-lg-3.mb-4(data-aos="zoom-in-up")
